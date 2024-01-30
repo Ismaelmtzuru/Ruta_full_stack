@@ -1,0 +1,49 @@
+html{
+    scroll-behavior:smooth
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial,Helvetica;
+
+}
+body {
+    background-color:black;
+
+}
+a{
+    color:aqua;
+}
+a:hover{
+    color:red;
+    text-decoration:None;
+}
+h1,h2,p{
+    color:#EF8307
+}
+/*Referenciar por id */
+#parrafoazul{
+    color:white;
+}
+
+/*referenciar por clase 
+!important establece que esto no pueda ser sobreescrito
+*/
+
+.textoverde{
+    color:green !important;
+    /*font-size:18px;*/   
+}
+
+.textosubrayado{
+    text-decoration:underline;
+    color:yellow;
+}
+
+/*
+    ORDEN
+(excepciones) estilos de línea
+1. selector de ID
+2. Selector de clase
+3. Selector de etiqueta
+*/
