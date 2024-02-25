@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//variables
+$blueColor: blue; 
+
+//mixins
+@mixin flexColumnCenter(){
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin btnPost($bordercolor){
+    border:3px solid $bordercolor;
+    background-color: transparent;
+    text-align: center;
+    padding: 5px;
+}

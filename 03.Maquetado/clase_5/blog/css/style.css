@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Papyrus",fantasy;
+}
+header h1{
+    text-align: center;
+    font-size:60px;
+    color:white;
+}
+header h4{
+    text-align: center;
+    color:white;
+}
+body{
+    background: linear-gradient(to bottom right ,rgb(18, 243, 222),rgb(8, 122, 184));
+}
+main{
+    width: 100%;
+}
+article h3{
+    color:blue;
+}
+article p{
+    text-shadow: 1px 2px 0px #f0f1f0;
+}
+.blog_list{
+    width:80%;
+    margin: 20px auto;
+    padding: 10px;
+    background: linear-gradient(to bottom right ,rgb(18, 243, 222),rgb(8, 122, 184));
+
+    border:2px linear red;
+}
+.post{
+    background: linear-gradient(to bottom right ,rgb(8, 122, 184), rgb(18, 243, 222));
+    border: 9px double white;
+    text-align: center;
+    color:black;
+    width:100%;
+}
+@media screen and (min-width:600px){
+    .post{
+        width:48%;
+        display:inline-block;
+        margin: 0.5%;
+    }
+}
+@media screen and (min-width:930px){
+    .post{
+        width:30%;
+        display:inline-block;
+        margin:1%
+    }
+}
+@media screen and (min-width:1280px){
+    .post{
+        width:22%;
+        display:inline-block;
+        margin:1%;
+    }
+}

@@ -1,0 +1,55 @@
+Recordar, anotar o documentar los logs para ver donde se imprimer, pero no dejarlo porque se puede filtrar información.
+
+Con dos iguales se hace comparación de valor
+Al usar 3 iguales se usa para comparación de tipo.
+
+Se puede preguntar el tipo de equis cosa con el comando 'typeof'.
+
+Existen linterns para establecer el formato del archivo de .js
+
+.class {
+	color:red;
+}
+Va a dar una alerta de que algo se está haciendo o declarando fuera de lo establecido.
+
+esLint => linter
+
+comando para correr de una sola vez los errores.
+
+En .prettier, para que todas las comas sean sencillas se escribe lo siguiente:
+{
+	"singleQuote": true
+}
+
+
+TAREA investigar que hace lo siguiente:
+{
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "semi": false,
+  "tabWidth": 2,
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "always",
+  "trailingComma": "none"
+}
+
+singleQuote:true, Esto indica que se deben usar comillas simples en lugar de comillas dobles para presentar cadenas de texto.
+
+jsxsinglequote:true, similar a lo anterior, pero para jsx(javascript XML).
+
+semi:false, Indica que los puntos y coma al final de las declaraciones no son necesarios. Al establecerlo en 'false', se omite el punto y coma al final de las líneas de código.
+
+tabwidth:2, establece el ancho de la tabulación en 2 espacios.
+
+bracketSpacing:true, Agrega espacios alrededor de las llaves en las estructuras de objetos
+
+jsxBracketSameLine:false, Indica que las llaves de apertura de elementos JSX deben colocarse en la línea siguiente, no en la misma linea que el nombre del elemento.
+
+arrowParens:'always', añade parentesis alrededor de los parametros de las funciones flecha, incluso cuando hay solo un parámetro.
+
+traillingComma='none', indica que no se deben agregar comas adicionales al final de las listas (como el ultimo elemento de un objeto o arrar). Si fuera 'es5', se agregaria una coma al final de la lista. En este caso, está configurado 'none', por lo que no se añaden comas adicionales.
+
+
+
+

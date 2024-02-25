@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.contenedor_no_responsivo{
+    width: 450px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.contenedor_responsivo{
+    margin-top: 10px;
+    width: 80%;
+    height: 200px;
+    background-color: blue;
+}
+.caja_morada{
+    background-color: purple;
+    height:100px;
+    padding:50px;
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: black;
+    }
+    .caja_morada{
+        width: 45%;
+        height: 400px;
+    }
+}
+@media screen and(max-width:992px){
+
+}
+@media screen and(max-width:1440px){
+    
+}

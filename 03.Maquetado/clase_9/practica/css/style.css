@@ -1,0 +1,26 @@
+div > h5{
+    color:white;
+}
+.carousel-item.active{
+    max-width: 99%;
+    max-height: 700px;
+}
+.carousel-slide{
+    max-height: 700px;
+}
+.limitar_imagen{
+    max-width: 100%;
+    max-height: 700px;
+}
+.card-body{
+    text-align: center;
+    align-self: center;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+}
+.card #tercia:hover{
+    filter: sepia(2);
+
+}

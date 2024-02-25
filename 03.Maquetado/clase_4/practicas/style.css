@@ -1,0 +1,116 @@
+.caja_absoluta{
+    background-color:black;
+    position:absolute;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+    top:50px;
+    left:400px;
+}
+.oreja_izquierda{
+    background-color:blue;
+    position:absolute;
+    border-radius:80px;
+    top:25px;
+    left:500px;
+    width:120px;
+    height:120px;
+}
+.oreja_derecha{
+    background-color:blue;
+    position:absolute;
+    border-radius:80px;
+    top:25px;
+    left:370px;
+    width:120px;
+    height:120px;
+}
+.ojo_izquierdo{
+    background-color:red;
+    position:absolute;
+    border-radius:80px;
+    top:150px;
+    left:460px;
+    width:20px;
+    height:20px;
+}
+.ojo_derecho{
+    background-color:red;
+    position:absolute;
+    border-radius:80px;
+    top:150px;
+    left:500px;
+    width:20px;
+    height:20px;
+}
+.boca{
+    background-color:white;
+    position:absolute;
+    border-radius:80px;
+    top:180px;
+    left:470px;
+    width:45px;
+    height:45px;
+}
+.stick_container {
+    border: 2px solid blue;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+}
+
+.position_sticky {
+    position: sticky;
+    top: 100px; /* Añade "px" para especificar la unidad */
+    left: 100px; /* Añade "px" para especificar la unidad */
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.btn{
+    padding:5px;
+    background-color: rgb(233, 155, 21);
+    color:white;
+    border:none;
+    transition:background-color 300ms cubic-bezier(0.215, 0.610, 0.355, 1), transform 300ms cubic-bezier(0.47, 0, 0.745, 0.715), color 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    cursor:grab
+}
+.btn:hover{
+    background: white;
+    border:1px red;
+    transform:scal(1.5)
+}
+.img:hover{
+    filter:sepia(1)
+}
+.img{
+    transition: filter 800ms ease;
+}
+.animacion_container{
+    width:650px;
+    height:250px;
+    background-color: white;
+    position:relative;
+    padding:20px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    left:0;
+    animation:mover_circulo 4s linear infinite ;
+}
+@keyframes mover_circulo{
+    0%{
+        left:0;
+    }
+    50%{
+        left:650px;
+        background-color:blue;
+    }
+    100%{
+        left:0;
+        background-color: aqua;
+    }
+}

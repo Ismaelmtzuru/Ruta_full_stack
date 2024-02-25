@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+.header{
+    position:relative;
+    border:2px solid black;
+    background-color: white;
+    width:100%;
+    height:100px;
+    text-align:center;
+    line-height:100px;
+}
+.nav{
+    position:relative;
+    border:2px solid black;
+    background-color:lightgrey;
+    width:100%;
+    height:60px;
+    text-align:center;
+    line-height:50px;
+}
+.vacio{
+    position:relative;
+    
+    width:100%;
+    height:10px
+}
+.cuerpo{
+    background-color:white;
+    width:100%;
+    height:210px;
+}
+.seccion{
+    position:relative;
+    left:10%;
+    width:50%;
+    text-align:center;
+}
+.articulo{
+    position:relative;
+    left:10%;
+    width:51%;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    background-color:lightgrey;
+    border: 2px solid lightseagreen;
+}
+.lado{
+    left:75%;
+    right:1.5%;
+    height:25%;
+    position:absolute;
+    background-color: lightgrey;
+    border: 2px solid lightseagreen ;
+    text-align:center;
+    
+}
+.texto1{
+    text-align: center;
+    line-height:130px;
+}
+.texto2{
+    text-align: center;
+    line-height:250px;
+}
+.footer{
+    text-align:center;
+    height:50px;
+    background-color:lightgrey;
+    line-height:50px;
+}

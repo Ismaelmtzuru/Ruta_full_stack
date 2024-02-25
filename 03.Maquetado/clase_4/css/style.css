@@ -1,0 +1,95 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1{
+    font-family:monospace;
+}
+.contenedor{
+    background-color: grey;
+    /*grosor del borde y después el color del borde*/
+    border:5px dotted green;
+    /*espaciado hacia dentro del contenedor*/
+    padding: 12px;
+    /*Espaciado, vertical y horizontal. */
+    margin: 10px 50px ;
+    /*se estalece como top,derecha,abajo,izquierda*/
+    margin: 10px 15px 20px 25px;
+}
+/*Selector hijo*/
+#selector_hijo p{
+    color:blue;
+}
+
+/*selector hijo directo*/
+#selector_directo > p{
+    color:red;
+}
+
+/* Selector hermano General*/
+#hermano_general h2 ~ button {
+    background-color: blue;
+    color: white;
+}
+#hermano_adyacente h2 + h3{
+    color:yellow
+}
+/* Selector de atributo*/
+a[href="https://www.kodemia.mx"]{
+    text-decoration:none;
+
+}
+input[type="text"]{
+    width:100px;
+    color:blue;
+
+}
+#pseudoconectores .btn{
+    background-color:red;
+    border:none;
+    padding:5px;
+}
+#pseudoconectores .btn:hover{
+    width:200px;
+}
+a:hover{
+    text-decoration:line-through;
+}
+#enlaces a:visited{
+    color:green;
+
+}
+#enlaces a:link{
+    color:red;
+}
+.caja{
+    width:100px;
+    height:60px;
+    background-color: cadetblue;
+    margin: 20px 0px;
+}
+.caja_relativa{
+    position:relative;
+    top:-10px;
+    left:10px;
+    right:0;
+    bottom:0;
+}
+.caja_absoluta{
+    position:absolute;
+    margin:0;
+    padding:0;
+    border-radius:100px;
+    width:100px;
+    height:100px;
+}
+*{
+    margin:0;
+    padding:0;
+}

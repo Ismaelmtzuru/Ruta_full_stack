@@ -1,0 +1,20 @@
+.post{
+    width:80%;
+    max-width: 300px;
+    background-color: white;
+    @include flexColumnCenter();
+    img {
+        border-radius:50%;
+        &:hover{
+            width:100px;
+            height: 100px;
+            filter: sepia(0.5);
+        }
+    }
+    .content{
+        p{
+            font-size: 40px;
+            color:$blueColor;
+        }
+    }
+}

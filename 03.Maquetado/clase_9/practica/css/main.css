@@ -1,0 +1,28 @@
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-sm-2 {
+  width: 20rem;
+}
+
+.col-md-2 {
+  width: 20rem;
+}
+
+.formulario h2 {
+  color: blue;
+  text-align: center;
+}
+.formulario h4 {
+  color: blue;
+  text-align: center;
+}
+
+.mybtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

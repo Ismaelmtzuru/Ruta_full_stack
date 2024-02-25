@@ -1,0 +1,15 @@
+.hero{
+    background-image: url("https://static.nationalgeographic.es/files/styles/image_3200/public/47880.webp?w=900&h=507");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    
+    background-position:center;
+    height: 100vh;
+}
+
+// agregar imagen de fondo
+// background-image: url("enlace")
+// background-repeat: no-repeat; que no se repita
+// background-size:cover para que crezca la imagen
+// contain hara que no se pixelee
+// background-position:right para colocarlo a la derecha

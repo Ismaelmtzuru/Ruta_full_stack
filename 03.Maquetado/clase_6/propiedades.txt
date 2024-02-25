@@ -1,0 +1,35 @@
+----------Justify content (horizontal)
+* Center : alinea al centro del contenedor
+* Flex-start(default) : alinea al inicio del contendero
+* Flex-end : alinea al final del contendor}
+* space-between : alinea el primer y último item, se reparte equitativamente el espacio.
+* space-around: se alinean por partes iguales, pero al final y comienzo tienen un espacio de la mitad de su tamaño.
+* space-evenly: Alinean de forma equitativa alrededor de ellos.
+
+----------Align-items (vertical)
+* center: alinea los items al centro del container
+* flex-start: alinea los items al inicio del contenedor
+* flex-end alinea los items al final del contenedor.
+* baseline: se alinean de forma que sus lineas base
+* stretch: los items son estirados para llenar el contenedor
+----------Flex-direction
+* row(default): los items son mostrados horizontalmente como una fila.
+* row-reverse: lo mismo que el anterior, pero al revés.
+* column: los items son mostrados como columna
+* column-reverse: 
+----------Align-self (propiedad del item)
+* center:  el elemento es posisionado al centro del contenedor
+* flex-start: elemento es posicionado al principio del contenedor
+* flex-end: Elemento es posicionado al final del contenedor.
+* stretch: elemento es estirado para rellenar el contenedor.
+----------Flex-wrap
+* nowrap(default): especifica qeu los items flexibles no se deben envolver
+* wrap: especifica que los items flexibles se deben envolver si es necesario
+* wrap-reverse: es lo mismo que wrap, pero al revés.
+----------Align-content
+* center: las lineas se estiran para tomar el espacio restante
+* flex-start: las lineas son empaquetadas hacia el inicio del contenedor flexible
+* flex-end: las lineas son empaquetas hacia el fin del contenedor flexible
+* space-between: las lineas son distribuidas en el contenedor flexible.
+* space-around: lineas son distribuidas equitativamente en el contendero, con la mitad de su tamaño al final de ellos.
+*

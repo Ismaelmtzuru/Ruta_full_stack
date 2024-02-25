@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+<body>
+    
+    <section class="container-fluid">
+        <h2>Container y columnas responsivas</h2>
+        <div class="row row-cols-lg-2">
+            <!-- (div.col-2.mycol{col-$})*6-->
+            <div class="col-12 col-md-1 col-lg-6 col-xl-3 col-xxl-4 mycol">col-1</div>
+            <div class="col-12 col-md-4 col-lg-6 col-xl-6 col-xxl-6 mycol">col-2</div>
+            <div class="col-12 col-md-1 col-lg-6 col-xl-2 col-xxl-2 mycol">col-3</div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-1 d-xxl-none mycol">col-4</div>
+            
+        </div>
+
+
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-4 mycol d-none d-xxl-block">4</div>
+                <div class="col-6 mycol d-none d-xxl-block">6</div>
+                <div class="col-2 mycol d-none d-xxl-block">2</div>
+            </div>
+        </div>
+        <div class="container-lg">
+            <div class="row ">
+                <div class="col-3 mycol d-none d-xl-block  d-xxl-none">3</div>
+                <div class="col-6 mycol d-none d-xl-block  d-xxl-none">6</div>
+                <div class="col-2 mycol d-none d-xl-block  d-xxl-none">2</div>
+                <div class="col-1 mycol d-none d-xl-block  d-xxl-none">1</div>
+            </div>
+        </div>
+        <div class="container-lg">
+            <div class="row row-cols-lg-2">
+                <div class="col-6 mycol d-none d-lg-block d-xl-none d-xxl-none">6</div>
+                <div class="col-6 mycol d-none d-lg-block d-xl-none d-xxl-none">6</div>
+                <div class="col-6 mycol d-none d-lg-block d-xl-none d-xxl-none">6</div>
+                <div class="col-6 mycol d-none d-lg-block d-xl-none d-xxl-none">6</div>
+            </div>
+        </div>
+        <div class="container-md">
+            <div class="row ">
+                <div class="col-1 mycol d-none d-md-block d-lg-none d-xl-none d-xxl-none">1</div>
+                <div class="col-4 mycol d-none d-md-block d-lg-none d-xl-none d-xxl-none">4</div>
+                <div class="col-1 mycol d-none d-md-block d-lg-none d-xl-none d-xxl-none">1</div>
+                <div class="col-6 mycol d-none d-md-block d-lg-none d-xl-none d-xxl-none">6</div>
+            </div>
+        </div>
+        <div class="container-sm">
+            <div class="row ">
+                <div class="col-12 mycol d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">12</div>
+                <div class="col-12 mycol d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">12</div>
+                <div class="col-12 mycol d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">12</div>
+                <div class="col-12 mycol d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">12</div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+<!--offset permite empujar filas para hacerla piramidae-->

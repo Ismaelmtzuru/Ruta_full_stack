@@ -1,0 +1,2 @@
+Media queries y responsividad
+box-sizing, border box

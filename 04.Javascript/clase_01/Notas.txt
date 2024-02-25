@@ -1,0 +1,14 @@
+Recordar, anotar o documentar los logs para ver donde se imprimer, pero no dejarlo porque se puede filtrar información.
+
+Con dos iguales se hace comparación de valor
+Al usar 3 iguales se usa para comparación de tipo.
+
+Se puede preguntar el tipo de equis cosa con el comando 'typeof'.
+
+
+una variable puede guardar cualquier cosa dentro.
+	2 modernas:
+		const: Constante sin poder modificar
+		let: Variable, se puede modificar su valor.
+	antigua:
+		var: no se utiliza porque al declarar una variable c, y se vuelve a usar despues, no se podrá modificar porque es global.

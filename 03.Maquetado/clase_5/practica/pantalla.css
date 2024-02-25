@@ -1,0 +1,57 @@
+section p {
+    display: block;
+}
+
+/* Pantallas hasta 600px */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: aquamarine;
+    }
+    section p.mobile {
+        display: block;
+    }
+    section p:not(.mobile) {
+        display: none;
+    }
+}
+
+/* Pantallas de 601px a 991px */
+@media screen and (min-width: 601px) and (max-width: 991px) {
+    body {
+        background-color: orange;
+    }
+    section p.tablet {
+        display: block;
+    }
+    section p:not(.tablet) {
+        display: none;
+    }
+}
+
+/* Pantallas de 992px a 1399px */
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+    body {
+        background-color: blue;
+    }
+    section p.desktop {
+        display: block;
+    }
+    section p:not(.desktop) {
+        display: none;
+    }
+}
+
+/* Pantallas de 1400px en adelante */
+@media screen and (min-width: 1400px) {
+    body {
+        background-color: red;
+    }
+    section p.xxl {
+        display: block;
+    }
+    section p:not(.xxl) {
+        display: none;
+    }
+}
+
+

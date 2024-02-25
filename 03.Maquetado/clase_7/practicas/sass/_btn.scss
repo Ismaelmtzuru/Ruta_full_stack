@@ -1,0 +1,11 @@
+.botones{
+    border-color: blue;
+    color:ghostwhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blue;
+    height:20px;
+    &:hover{
+        background-color:aqua;
+        color:green;
+    }
+}

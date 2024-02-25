@@ -1,0 +1,48 @@
+body{
+    color:white;
+    background-color:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.caja_roja{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10%;
+    border:3px solid redd;
+}
+.col{
+    display:flex;
+    flex-direction:column;
+}
+.container{
+    width: 80%;
+    height: auto;
+    border:2px solid orange;
+    text-align: center;
+    margin: 0 auto;
+    padding:10px;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content:flex-end;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-start{
+    justify-content:flex-start;
+}
+.row{
+    margin:20px;
+    display:flex;
+    flex-direction:row;
+    align-items:center
+}

@@ -1,0 +1,37 @@
+
+// Para llamar de _global.scss se importa todo
+@import "global";
+@import "post";
+
+body{
+    background-color : $blueColor;
+}
+
+section{
+    width: 100%;
+    @include flexColumnCenter();
+   
+}
+button{
+    @include btnPost(orange);
+}
+#btnRojo{
+    @include btnPost(red);
+    border:2px solid;
+}
+.miparrafo{
+    color:white;
+}
+#btnVerde{
+    @include btnPost(green);
+}
+#btnAzul{
+    @include btnPost(blue);
+}
+
+// agregar imagen de fondo
+// background-image: url("enlace")
+// background-repeat: no-repeat; que no se repita
+// background-size:cover para que crezca la imagen
+// contain hara que no se pixelee
+// background-position:right para colocarlo a la derecha
